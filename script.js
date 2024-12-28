@@ -32,7 +32,7 @@ const loadSavedChatHistory = () => {
         const userMessageHtml = `
 
             <div class="message__content">
-                <img class="message__avatar" src="assets/profile.png" alt="User avatar">
+                <img class="message__avatar" src="profile.png" alt="User avatar">
                <p class="message__text">${conversation.userMessage}</p>
             </div>
         
@@ -49,7 +49,7 @@ const loadSavedChatHistory = () => {
         const responseHtml = `
         
            <div class="message__content">
-                <img class="message__avatar" src="assets/gemini.svg" alt="Gemini avatar">
+                <img class="message__avatar" src="gemini.svg" alt="Gemini avatar">
                 <p class="message__text"></p>
                 <div class="message__loading-indicator hide">
                     <div class="message__loading-bar"></div>
@@ -186,7 +186,7 @@ const displayLoadingAnimation = () => {
     const loadingHtml = `
 
         <div class="message__content">
-            <img class="message__avatar" src="assets/gemini.svg" alt="Gemini avatar">
+            <img class="message__avatar" src="gemini.svg" alt="Gemini avatar">
             <p class="message__text"></p>
             <div class="message__loading-indicator">
                 <div class="message__loading-bar"></div>
@@ -223,7 +223,7 @@ const handleOutgoingMessage = () => {
     const outgoingMessageHtml = `
     
         <div class="message__content">
-            <img class="message__avatar" src="assets/profile.png" alt="User avatar">
+            <img class="message__avatar" src="profile.png" alt="User avatar">
             <p class="message__text"></p>
         </div>
 
